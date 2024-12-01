@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SharonFlexbox.9HTML</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 5px);
+        }
+
+        nav, main, aside, footer {
+            border: 1px solid black;
+        }
+
+        nav {
+  display: flex;
+  margin: 4px;
+  justify-content: space-between;
+  gap: 4px;
+  padding: 4px;
+}
+
+.navcont1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+}
+
+.navcont2 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.navredbox {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+
+.navbigbox {
+  background-color: red;
+  height: 30px;
+  width: 60px;
+}
+
+main {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 5px;
+padding: 4px;
+}
+
+.mainitems {
+  border: 1px solid black;
+  height: 25px;
+  width: 150px;
+
+}
+
+.container1 {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  flex-grow: ;
+}
+
+.cont2 {
+  display: flex;
+  gap: 5px;
+  flex-flow: wrap
+  padding: 5px;
+  width: 5000px;
+  flex-direction: column;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  padding: 5px;
+  height: 540px;
+}
+
+.asideitems {
+  border: 1px solid black;
+  height: 20vh;
+  width: 990px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footercont1 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.footerredbox {
+            background-color: red;
+            height: 30px;
+            width: 30px;
+        }
+
+        .footercont2 {
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            align-items: center;
+            margin-right: 4px;
+        }
+
+        .footerredbox2 {
+            background-color: red;
+            height: 20px;
+            width: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav>
+  <div class="navcont1">
+    <div class="navredbox"></div>
+    <div>FLEXBOX</div>
+  </div>
+
+  <div class="navcont2">
+    <div class="navbigbox"></div>
+    <div class="navbigbox"></div>
+    <div class="navbigbox"></div>
+    <div class="navbigbox"></div>
+  </div>
+</nav>
+
+ <div class="container1">
+ <main>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+   <div class="mainitems"></div>
+ </main>
+
+<div class="cont2">
+ <aside>
+   <div class="asideitems"></div>
+   <div class="asideitems"></div>
+ </aside>
+ <footer>
+    <div class="footercont1">
+  <div class="footerredbox"></div>
+  <div class="flexcprt">
+    <div>FLEXBOX</div>
+    <div>©Copyright All rights reserved.</div>
+  </div>
+</div>
+
+<div class="footercont2">
+  <div class="footerredbox2"></div>
+  <div class="footerredbox2"></div>
+  <div class="footerredbox2"></div>
+  <div class="footerredbox2"></div>
+  <div class="footerredbox2"></div>
+</div>
+ </footer>
+ </div>
+ </div>
+</body>
+
+</html>
